@@ -2,7 +2,7 @@
 
 A script in the form of a Cypress test that automates refilling data on AT&T pre-paid hotspot accounts.
 
-Normally these accounts will simply stop working once the data allocation is depleted, and refill again only at the beginning of the next billing cycle.
+Normally these accounts will simply stop working once the data allocation is depleted, and refill again only at the beginning of the next billing cycle, even if you have auto-pay enabled.
 
 ![cypress screenshot](images/screenshot.png)
 
