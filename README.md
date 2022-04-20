@@ -8,7 +8,7 @@ Normally these accounts will simply stop working once the data allocation is dep
 
 # How it works
 
-It takes advantage of a workaround in the billing portal allowing you to re-start a new billing cycle before the current one has ended. You will, of course, be charged again for re-starting the cycle, but this just lets you do it earlier.
+It takes advantage of a workaround in the billing portal allowing you to re-start a new billing cycle before the current one has ended by switching to another plan and switching back again without paying in between. You will, of course, be charged again for re-starting the cycle, but this just lets you do it sooner.
 
 It can be done manually, but if you are a heavy data user, it is tedious and error-prone to do this repeatedly.
 
@@ -18,7 +18,7 @@ It can be done manually, but if you are a heavy data user, it is tedious and err
 * While it has some reasonable checks to ensure the newly selected plan is correct before charging, they could fail and leave you with an undesired plan.
 * Running this when you are not out of data will forfeit the remaining data, since the billing cycle is restarting.
 * There is no API or official method of doing this, so it is a workaround, first and foremost.
-* AT&T might suddenly tell you that paying them more money, more quickly is a ToS violation, and terminate your account. Why not.
+* AT&T might suddenly tell you that paying them more money more quickly is a ToS violation, and terminate your account. Why not.
 * AT&T might change the layout, elements, or plans on the page, causing this script to stop working or behave unexpectedly.
 * When this script was written, the portal looked like this: ![paygonline screenshot](images/portal.png)
 
