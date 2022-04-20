@@ -39,7 +39,7 @@ Be absolutely sure you understand what the code is doing before proceeding. Runn
 
 If you are unsure about it, you can [perform the process manually.](#manual-process)
 
-1. In the root of the repository: `yarn run cypress open` 
+1. In the root of the repository: `yarn run cypress open --env CY_USERNAME=$CY_USERNAME,CY_PASSWORD=$CY_PASSWORD` 
 1. Run the spec
 
 # Manual process
