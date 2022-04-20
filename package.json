@@ -1,0 +1,11 @@
+{
+  "name": "autopaygonline",
+  "version": "1.0.0",
+  "description": "Does AT&T stuff in response to AT&T being AT&T.",
+  "main": "index.js",
+  "author": "Steve Mena",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cypress": "^8.3.1"
+  }
+}
